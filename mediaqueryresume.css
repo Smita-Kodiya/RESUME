@@ -1,0 +1,184 @@
+@media only screen and (max-width:1024px){
+   
+  .table-part{
+    padding-left: 5px;
+    padding-right: 7px;
+    font-size: 1rem;
+  }
+ 
+
+}
+
+
+@media only screen and (max-width:768px){
+  body{
+  font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width:540px){
+   
+  .table-part{
+    padding-left: 5px;
+    padding-right: 7px;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width:450px){
+  tr,th{
+      padding: 0;
+  }
+  .passport{
+      width: 55%;
+  }
+  .aboutself{
+      width: 55%;
+      padding: 5px;
+  }
+}
+
+@media only screen and (width:414px){
+  body{
+    font-size: 0.7rem;
+}
+    .table-part{
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 0.5rem;
+    }
+    .detail{
+        font-size: 0.5rem;
+    }
+  }
+
+  @media only screen and (width:411px){
+   .body{
+     font-size: 0.5rem;
+   }
+    .table-part{
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 0.5rem;
+    }
+    .detail{
+        font-size: 0.5rem;
+    }
+    .p:hover{
+      transform: scale(1.5,3);
+      font-size: 0.5rem;
+  }
+    
+  }
+
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px)
+  {
+    .p:hover{
+      transform: scale(1.5,3);
+      font-size: 0.5rem;
+  }
+  }
+
+  @media only screen and (max-width:375px){
+   
+    .table-part{
+      padding-left: 5px;
+      padding-right: 7px;
+      font-size: 0.5rem;
+    }
+    .detail{
+       font-size: 0.5rem;
+    }
+    .p:hover{
+      transform: scale(1,2);
+   
+  }
+  }
+
+@media only screen and (max-width:360){
+    .img-adjust{
+        width: 100%;
+    }
+    
+   
+}
+@media only screen and (max-width:360px){
+  body{
+      font-size: 0.7rem;
+  }
+.table-part{
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 0.5rem;
+}
+.detail{
+  font-size: 0.5rem;
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)
+{
+  .img-adjust{
+      width: 40%;
+  }
+  .listing-order{
+      font-size: 0.5rem;
+  }
+  .tooltip:hover:after{
+    width: 100px;
+    height: 20px;
+  }
+ 
+}
+
+  @media only screen and (max-width:280px){
+   
+    .table-part{
+      padding-left: 5px;
+      padding-right: 7px;
+      font-size: 0.4rem;
+    }
+    .detail{
+        font-size: 0.4rem;
+    }
+    .img-adjust{
+      width: 50%;
+      height: 70%;
+  }
+  .listing-order{
+      font-size: 0.5rem;
+      padding-left: 2px;
+  }
+  .tooltip:hover:after{
+    width: 100px;
+    height: 20px;
+  }
+  .header:hover{
+    width: 40%;
+  }
+  .p:hover{
+    transform: none;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px)
+{
+  .n:hover{
+    transform: none;
+  }
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)
+{
+  .n:hover{
+    transform: none;
+  }
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 653px)
+{
+  .n:hover{
+    transform: none;
+  }
+}
